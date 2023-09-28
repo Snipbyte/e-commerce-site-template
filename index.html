@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" />
+	<title>ecommerce sample</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	
+	
+	<link rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1yTLwNiCZhIdCWolQldwq4spHQkgZDqkG">
+</head>
+<style type="text/css">
+	.back
+	{
+		background-color:rgba(0, 0, 0, 0.7);
+	}
+	.my-card
+	{
+		width:18rem;min-height: 16rem;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+	}
+	.my-card:hover {
+		box-shadow: rgba(2,0,36,1) 0px 5px 15px;
+		
+	}
+	.my-card-featured
+	{
+		box-shadow: rgba(2,0,36,1) 0px 5px 15px;
+
+	}
+	.shadoww
+	{
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	}
+	.banner
+	{
+		background-image: url('https://img.freepik.com/free-photo/sale-shelf-apparel-shirt-casual_1203-4208.jpg?w=740&t=st=1695788623~exp=1695789223~hmac=1e31aa614ad88bc15efa26ea7f0f2c6ff6d7b1cbd92135d9b2784d1661f68dc0');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+</style>
+<body class="overflow-x-hidden">
+	<main id="main" class="bg-dark">
+		<div class="w-100 mx-auto text-white banner" >
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid ps-md-5">
+    <a class="navbar-brand ps-md-5 text-warning fw-bolder " href="#"><span class="text-white">T</span>-Shirts</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2 mx-auto">
+        <li class="nav-item">
+          <a class="nav-link  text-center btn btn-outline-warning rounded-2 px-3" aria-current="page" href="#" style="width:100px"><b>  Home </b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-center btn btn-outline-warning rounded-2 px-3" aria-current="page" href="#" style="width:100px"><b> Top </b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-center btn btn-outline-warning rounded-2 px-3" aria-current="page" href="#" style="width:100px"><b> Featured </b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-center btn btn-outline-warning rounded-2 px-3" aria-current="page" href="#" style="width:100px"><b> Sale </b></a>
+        </li>
+        
+        
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+			<div class="row back">
+
+
+				<div class="col-12 col-md-6 my-auto mx-auto px-5 text-md-start text-center" style="color:black">
+					<h1 class="text-warning m-0 p-0" style="font-size:100px; font-weight: 800;"><span class="text-white">T</span>-Shirts</h1>
+					<p class="px-2 text-white" style="font-size:30px">CURATED FASHION FOR CUSRIOUS MINDS</p>
+
+
+
+
+				</div>
+				<div class="col-12 col-md-3 text-center pb-5 pt-3">
+					<img src="https://img.freepik.com/free-photo/people-looking-clothes-thrift-shop-side-view_23-2150082900.jpg?w=360&t=st=1695791580~exp=1695792180~hmac=1f4f4091c82e3c06b8349e967dc4f263449e0aa72e38efdd688e9a4ebdc9e632" class="img-fluid h-100 rounded-5">
+				</div>
+				<div class="col-12 col-md-3 text-md-center pt-5 pb-3 d-none d-md-block">
+					<img src="https://img.freepik.com/free-photo/woman-looking-clothes-full-shot_23-2150082876.jpg?w=360&t=st=1695791615~exp=1695792215~hmac=38ffcc7bf1e8dcbaded815b98ee23ccb99c3969a1734ff0e07bccee6776bf54b" class="img-fluid h-100 rounded-5">
+				</div>
+			</div>
+		</div>
+		<div class="p-5">
+
+			<h1 class="py-5 text-center fw-bolder text-warning">TOP COLLECTIONS</h1>
+			
+			
+			<div class="d-flex flex-wrap justify-content-center gap-5 pb-5">
+				<div class="card bg-dark my-card rounded-5" style="height:30rem; width: 20rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDIqh50mj7sRQFKgN47Dsg0M92hzEKjTcehtPke-wIsJi8zFnDD7C7kUEpJFuV0rY6gw&usqp=CAU" class="card-img h-100 rounded-5 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-between">
+						<h1 class="card-title text-white fw-bolder">200$</h1>
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-5" style="height:30rem; width: 20rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsTKqfKhGlTeAdDd_pHUIVISSYuBesqlBc7qFO__FOy8wRTs-5AgyMjYn3E0ZER5Oxt4c&usqp=CAU" class="card-img h-100 rounded-5 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-between">
+						<h1 class="card-title text-white fw-bolder">200$</h1>
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-5" style="height:30rem; width: 20rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeXysBPsY8YJILdjNeb7iJ8o_XlUIf1gA_YSdEWnRPoz4J5R4TiCzID_ZpFFMBQ5GbL2c&usqp=CAU" class="card-img h-100 rounded-5 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-between">
+						<h1 class="card-title text-white fw-bolder">200$</h1>
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-5" style="height:30rem; width: 20rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN4wuTt2tkqxZwJMvCrE7alLaYnJ2dCXtAvAxAhm4bL5hGq_bmjHh5izCpBP1af9wvrQQ&usqp=CAU" class="card-img h-100 rounded-5 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-between">
+						<h1 class="card-title text-white fw-bolder">200$</h1>
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-5" style="height:30rem; width: 20rem;">
+					<img src="https://rukminim1.flixcart.com/image/300/300/xif0q/shirt/g/q/a/l-shirt-cotton-lycra-le-pery-original-imaggrp2q2gbv2wh.jpeg" class="card-img h-100 rounded-5 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-between">
+						<h1 class="card-title text-white fw-bolder">200$</h1>
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-5" style="height:30rem; width: 20rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5uuXrm3BmFngYcxe8PkAd1PTmbjkSlRG2ze1ojFBc3P0msqsQybSoqN-IFMLuI0rx7Y&usqp=CAU" class="card-img h-100 rounded-5 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-between">
+						<h1 class="card-title text-white fw-bolder">200$</h1>
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+
+				
+
+
+			</div>
+		</div>
+
+		<div class="banner shadoww p-">
+			<div class="w-100 h-100 p-5 back" >
+				<div class="text-center text-white">
+					<h3 class="text-warning">NEW ARRIVALS</h3>
+					<h1>SUMMER WEARS</h1>
+				</div>
+				<div class="d-flex p-5 pb-2 flex-wrap justify-content-around gap-3">
+					<div class="mt-5 rounded-4">
+						<img src="https://img.freepik.com/free-photo/beautiful-young-woman-choosing-what-wear-looking-front_176420-42947.jpg?w=360&t=st=1695789424~exp=1695790024~hmac=201591d95a0e59a4eb29a0ceecb355e7081988d6515f7591e90754affd5b3d3f" class="img-fluid mt-5 rounded-4 shadoww" style="width:20rem; height: 30rem;">
+					</div>
+					<div class="pb-5 mb-5 rounded-4 d-none d-md-block">
+						<img src="https://img.freepik.com/free-photo/girl_1303-4480.jpg?w=360&t=st=1695789803~exp=1695790403~hmac=b4708f21b072fe1921ae7153989948ffe25a265bf0b8e74d7d6329b4f55184d6" class="img-fluid d-none d-md-block shadoww mb-5 rounded-4" style="width:20rem; height: 30rem;">
+					</div>
+					<img src="https://img.freepik.com/free-photo/brunette-woman-with-shirt-posing_144627-19046.jpg?w=360&t=st=1695789572~exp=1695790172~hmac=0ad6f84ecb7a02dd60238adb2fae63288e626c7a1c45da1f4f5bdb7094db310a" class="mt-5 img-fluid rounded-4 shadoww d-none d-md-block" style="width:20rem; height: 30rem;">
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+		<div>
+			<h1 class="py-5 text-center text-warning fw-bolder">FEATURED</h1>
+
+
+			<div class="d-flex flex-wrap justify-content-center gap-5 pb-5">
+				<div class="card bg-dark my-card rounded-3" style="height:22rem; width: 15rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5uuXrm3BmFngYcxe8PkAd1PTmbjkSlRG2ze1ojFBc3P0msqsQybSoqN-IFMLuI0rx7Y&usqp=CAU" class="card-img h-100 rounded-3 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-center">
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-3" style="height:22rem; width: 15rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5uuXrm3BmFngYcxe8PkAd1PTmbjkSlRG2ze1ojFBc3P0msqsQybSoqN-IFMLuI0rx7Y&usqp=CAU" class="card-img h-100 rounded-3 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-center">
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-3" style="height:22rem; width: 15rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5uuXrm3BmFngYcxe8PkAd1PTmbjkSlRG2ze1ojFBc3P0msqsQybSoqN-IFMLuI0rx7Y&usqp=CAU" class="card-img h-100 rounded-3 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-center">
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+				<div class="card bg-dark my-card rounded-3" style="height:22rem; width: 15rem;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5uuXrm3BmFngYcxe8PkAd1PTmbjkSlRG2ze1ojFBc3P0msqsQybSoqN-IFMLuI0rx7Y&usqp=CAU" class="card-img h-100 rounded-3 w-100" alt="...">
+					<div class="w-100 position-absolute bottom-0 p-3 d-flex justify-content-center">
+						<button class="btn  px-4  btn-dark text-center  rounded-pill btn-lg"><b> Add to Cart </b> </button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		
+					<footer class="text-center py-4 text-warning back">
+						<span>&#169; 2023 All rights reserved</span>
+					</footer>
+				</main>
+			</body>
+			</html>
